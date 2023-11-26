@@ -1,0 +1,77 @@
+#main_content{
+    background-image: url(./shopindex.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-clip: border-box;
+    display: flex;
+    
+}
+#main_content>#box{
+    /* position: static; */
+    height: 500px;
+    max-width: 300px;
+    background-color: rgb(195, 182, 182,0.5);
+    border-radius: 15px;
+    margin: 17vh 150vh  ;
+    
+}
+#heading{
+    
+    position: absolute;
+    padding: 20px;
+    border: 0px;
+    color: rgb(205, 141, 141);
+    margin: 200px 150px;
+    text-align: center;
+    font-size: 30px;
+}
+nav{
+    width: 300px;
+    margin: 15vh auto  ;
+    border-radius: 15px;
+    padding-top: 2%;
+    line-height: 100px;
+    text-align: center;
+    
+}
+button{
+    width: 150px;
+    height: 50px;
+    transition-duration: 1s;
+    
+    border-radius: 15px;
+    background-color: burlywood;
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px;
+}
+#or::before{
+    content: "";
+    border: 1px solid black;
+    width: 70px;
+    position:absolute;
+    border-bottom: none;
+    left: 1130px;
+    top: 390px;
+}
+#or::after{
+    content: "";
+    border: 1px solid black;
+    width: 70px;
+    position:absolute;
+    border-bottom: none;
+    left: 1227px;
+    top: 390px;
+}
+button:hover{
+    background-color: aliceblue;
+    font-size: 16px;
+    transition: 60ms;
+    width: 170px;
+    height: 60px;
+    
+}
+a{
+    
+}

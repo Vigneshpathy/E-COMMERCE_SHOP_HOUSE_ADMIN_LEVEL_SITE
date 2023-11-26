@@ -1,0 +1,74 @@
+body{
+    margin: 0%;
+    background-color: #EEBF93;
+}
+nav{
+    background-image: url(../shopindex.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    padding-right: 100px ;
+}
+nav>#shop{
+    font-size: 45px;
+    margin-left: 230px;
+    display: inline-block;
+    width: fit-content;
+    
+}
+nav>#home{
+    font-size: xx-large;
+    display: inline-block;
+    width: fit-content;
+    margin-left: 100px;
+    text-decoration: underline;
+}
+#admin_details{
+    text-align: right;
+    display: inline-block;
+    float: right;
+    margin-right: 60px;
+}
+#add_product{
+    margin-left: 30px;
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+}
+#main_content{
+    padding-top: 140px;
+}
+#elements>#img>img{
+    height: 230px;
+}
+#elements{
+    padding-top: 25px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 600px 1fr 1fr 2fr;
+}
+#buttons{
+    display: grid;
+    grid-auto-columns: auto;
+    align-items: center;
+    justify-content: center;
+}
+#buttons>a>button{
+    height: 40px;
+    width: 60px;
+}
+#delete_button{
+    background-color: rgb(18, 89, 152);
+}
+#edit_button{
+    background-color: rgb(18, 152, 43);
+}
+#line{
+    border: 1px solid black;
+    width: 150vh;
+    border-top: 0px;
+    margin-left: 200px;
+}

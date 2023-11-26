@@ -1,0 +1,51 @@
+#main_content{
+    background-image: url(./shopindex.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+header{
+    text-align: center;
+    line-height: 100px;
+    font-size: x-large;
+    color: rgb(205, 141, 141);
+}
+form{
+    background-color: rgb(195, 182, 182,0.5);
+    width: 270px;
+    border-radius: 10px;
+    padding: 20px 20px 20px;
+    line-height: 30px;
+    margin: 10vh 570px;
+    font-weight: bolder;
+    font-size: large;
+    position: absolute;
+
+}
+form>h2{
+    text-align: center;
+    text-decoration: underline;
+}
+form>.input{
+    width: 250px;
+    border-radius: 10px;
+    background-color: bisque;
+    padding-left: 20px;
+    height: 25px;
+}
+form>#submit{
+    min-width: 100px;
+    margin-top: 20px ;
+    margin-left: 30%;
+    line-height: 30px;
+    border-radius: 10px;
+    background-color: bisque;
+    
+}
+#submit:hover{
+    background-color: aliceblue;  
+}
+#submit:active{
+    background-color: bisque;  
+}

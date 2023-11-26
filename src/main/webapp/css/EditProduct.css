@@ -1,0 +1,98 @@
+body{
+    margin: 0%;
+    background-image: url(../shopindex.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+nav{
+    background-color: #EEBF93;
+    color: white;
+    width: 100%;
+    padding-right: 100px ;
+}
+nav>#shop{
+    font-size: 45px;
+    margin-left: 230px;
+    display: inline-block;
+    width: fit-content;
+    
+}
+nav>#home{
+    font-size: xx-large;
+    display: inline-block;
+    width: fit-content;
+    margin-left: 100px;
+    text-decoration: underline;
+    
+}
+nav>#home>a{
+    color: white;
+}
+#admin_details{
+    text-align: right;
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+}
+#add_product{
+    margin-left: 30px;
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+}
+#bg_box{
+    
+}
+#form_box>#heading>h1{
+    margin: 0px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+#form{
+    position: relative;
+    
+}
+#main_content{
+    margin: 0px;
+}
+#form_box{
+    width: 330px;
+    height: 430px;
+    margin-top: 70px;
+    margin-left: 570px;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    background-color: rgb(195, 182, 182,0.5);
+}
+.inputs{
+    display: grid;
+    
+}
+.input_box{
+    width: 270px;
+    border-radius: 15px;
+    padding: 2px 15px ;
+   background-color: #eec6a0;
+}
+#submit{
+    margin-top: 10px;
+    background-color: bisque;
+    border-radius: 15px;
+}
+.input_box:focus{
+    background-color: antiquewhite;
+}
+#submit:hover{
+    background-color: #eec6a0;
+}
+#submit:active{
+    background-color: bisque;  
+}
+label{
+    font-size: larger;
+    font-weight: bold;
+    text-transform: capitalize;
+}

@@ -1,0 +1,56 @@
+#main_content{
+
+    background-image: url(../shopindex.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+header{
+    text-align: center;
+    line-height: 100px;
+    font-size: x-large;
+    color: #EEBF93;
+}
+form{
+    background-color: rgb(195, 182, 182,0.5);
+    width: 270px;
+    border-radius: 10px;
+    padding: 20px 20px 20px;
+    line-height: 30px;
+    margin-left: 570px;
+    font-weight: bolder;
+    font-size: large;
+    position: absolute;
+    color: white;
+}
+form>h2{
+    text-align: center;
+    text-decoration: underline;
+}
+form>.input{
+    width: 250px;
+    border-radius: 10px;
+    background-color: #eec6a0;
+    padding-left: 20px;
+    height: 25px;
+}
+input:focus{
+    background-color: aliceblue;
+}
+form>#submit_button{
+    min-width: 100px;
+    margin-top: 20px ;
+    margin-left: 30%;
+    line-height: 30px;
+    border-radius: 10px;
+    background-color: bisque;
+    
+}
+#submit_button:hover{
+    background-color: #EEBF93;  
+}
+#submit_button:active{
+    background-color: bisque;  
+}
+
